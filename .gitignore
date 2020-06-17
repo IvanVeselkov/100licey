@@ -1,0 +1,133 @@
+# # Игнорировать временные файлы Visual Studio, результаты сборки и
+# # файлы, созданные популярными расширениями Visual Studio.
+
+# Пользовательские файлы
+*.СУО
+*.пользователь
+*.ФСЛ.докторантура
+
+# Результаты сборки
+
+[Dd]ebug/
+[Rr ] elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+# Результаты теста MSTest
+[ Tt ] est [Rr ] esult */
+[Bb ] uild [ Ll] og.*
+
+* _i. c
+* _p. c
+* _i. h
+*.род
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.svclog
+*.scc
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.azurePubxml
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+## TODO: If the tool you use requires repositories.config, also uncomment the next line
+!packages/repositories.config
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+![Ss]tyle[Cc]op.targets
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+
+*.publishsettings
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Резервное копирование и файлы отчетов из преобразования старого файла проекта в более новый
+# Версия Visual Studio. Резервные копии файлов не нужны, потому что у нас есть git ;-)
+_UpgradeReport_Files/
+Резервное копирование */
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Файлы SQL Server
+App_Data/*.МДФ
+App_Data/*.ldf
+
+# =========================
+# Windows detritus
+# =========================
+
+# Кэш файлов образов Windows
+Пальцы.дБ
+ehthumbs.дБ
+
+# Папка конфигурационный файл
+Для рабочего стола.ини
+
+# Корзина, используемая в общих файловых ресурсах
+$ПЕРЕРАБАТЫВАТЬ.Бункер/
+
+# Mac desktop service store файлы
+.DS_Store
+
+_NCrunch*
